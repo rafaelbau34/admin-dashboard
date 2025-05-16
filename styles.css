@@ -54,7 +54,88 @@ body {
   margin-top: 40px;
 }
 
+.header {
+  background-color: white;
+  flex-direction: column;
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 150px;
+
+  margin-top: 10px;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 30px;
+}
+
+.avatar-nav {
+  height: 50px;
+  width: 50px;
+  margin: 0 40px;
+}
+
+.avatar-welcome {
+  height: 75px;
+  margin-right: 20px;
+}
+
+.form-input {
+  height: 25px;
+  width: 500px;
+  background-color: lightgrey;
+  border: none;
+  border-radius: 10px;
+  margin-left: 30px;
+
+  margin-right: 400px;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+  margin-left: 400px;
+}
+
+.btn {
+  background-color: rgb(89, 191, 238);
+  border-radius: 30px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  width: 100px;
+  height: 40px;
+  border: none;
+  font-size: 1rem;
+}
+
 .main {
   display: grid;
   height: 100vh;
+  grid-template-rows: 25% 75%;
+  background-color: lightgray;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 75% 25%;
 }
